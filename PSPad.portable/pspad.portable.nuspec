@@ -24,8 +24,11 @@ This is portable self-containing packaging of PSPad. The installation doesn't cr
     <requireLicenseAcceptance>false</requireLicenseAcceptance>  
     <projectUrl>http://www.pspad.com/</projectUrl> 
     <releaseNotes>http://www.pspad.com/en/whatsnew.htm</releaseNotes>
+    <docsUrl>http://gogogadgetscott.info/pspad/</docsUrl>
+    <mailingListUrl>http://forum.pspad.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/TurboBasic/fcd3770ed2ecea54946fd6d78d960d3b/raw/d2cf32ee9827fc218737db22a822e2cf409189a4/pspad.png</iconUrl>
     <tags>text editor foss portable windows</tags>
+    <packageSourceUrl>https://github.com/TurboBasic/Chocolatey-Packages/tree/master/PSPad.portable</packageSourceUrl>
   </metadata>
   <files>
     <file src="ChocolateyInstall.ps1" target="tools" />
