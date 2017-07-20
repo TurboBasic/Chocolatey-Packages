@@ -1,4 +1,4 @@
-$url      = 'http://www.pspad.com/files/pspad/pspad462en.zip'
+$url       = 'http://www.pspad.com/files/pspad/pspad462en.zip'
 $checksum = 'b8a3041c47ea1ee5c9517024998626d4dab30339877f3741fda646780daa7c96'
 
 

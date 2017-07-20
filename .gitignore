@@ -1,2 +1,4 @@
 # Nuget/Chocolatey packages
 *.nupkg
+
+/chocolatey-packages-2-integrate
