@@ -2,15 +2,11 @@
 <!-- Do not remove this test for UTF-8: if вЂњО©вЂќ doesnвЂ™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Required elements-->
-    <id>PSPad.portable</id>
-    <title>PSPad portable</title>
-    <version>4.6.2.20170720</version>
-    <owners>Mao</owners>
-    <packageSourceUrl>https://github.com/turboBasic/Chocolatey-Packages/tree/master/PSPad.portable</packageSourceUrl>
-    <tags>text editor foss portable windows freeware development</tags>
-    <summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>
+    <id>PSPad</id>
+    <title>PSPad</title>
+    <version>4.6.2</version>
     <authors>Jan Fiala</authors>
+    <owners>Mao</owners>
     <copyright>Copyright (C) 2001-2015 Jan Fiala</copyright>
     <description>[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, 
 useful for people who:
@@ -25,11 +21,14 @@ useful for people who:
 commercial and government purposes too
 </description>
     <docsUrl>http://www.pspad.com/en/helpfiles.htm</docsUrl>
-    <iconUrl>https://raw.githubusercontent.com/turboBasic/Chocolatey-Packages/master/PSPad.portable/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/turboBasic/Chocolatey-Packages/master/PSPad/icon.png</iconUrl>
     <licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
     <projectUrl>http://www.pspad.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/turboBasic/Chocolatey-Packages/tree/master/PSPad</packageSourceUrl>
     <releaseNotes>http://www.pspad.com/en/whatsnew.htm</releaseNotes>
+    <summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>
+    <tags>text editor foss windows freeware development</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
