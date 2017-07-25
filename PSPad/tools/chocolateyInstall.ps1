@@ -17,7 +17,7 @@ $packageArgs = @{
 
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
-#  file           = Get-Item $toolsDir\*.zip
+
   skipShims      = @('phpCB.exe', 'TiDy.exe')
   softwareName   = 'PSPad'
 }
