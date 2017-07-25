@@ -1,11 +1,11 @@
-﻿<!-- EDIT ME-->
-
+﻿
 [![](https://ci.appveyor.com/api/projects/status/github/turboBasic/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/turboBasic/chocolatey-packages)
-[Update status](https://gist.github.com/turboBasic/21901b2335f820599479cb81da4c5f7c)
 [![Build status](https://ci.appveyor.com/api/projects/status/6svqcb37xarc32e7?svg=true)](https://ci.appveyor.com/project/mao/chocolatey-packages)
+
+[Update status](https://gist.github.com/turboBasic/21901b2335f820599479cb81da4c5f7c)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [chocolatey/mao](https://chocolatey.org/profiles/mao)
-<!-- EDIT ME-->
+
 <!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
 
 This repository contains [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
