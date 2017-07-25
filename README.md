@@ -1,5 +1,4 @@
-﻿~~~
-<!-- EDIT ME-->
+﻿<!-- EDIT ME-->
 
 [![](https://ci.appveyor.com/api/projects/status/github/turboBasic/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/turboBasic/chocolatey-packages)
 [Update status](https://gist.github.com/turboBasic/21901b2335f820599479cb81da4c5f7c)
@@ -8,7 +7,6 @@
 [chocolatey/mao](https://chocolatey.org/profiles/mao)
 <!-- EDIT ME-->
 <!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
-~~~
 
 This repository contains [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
 The repository is setup so that you can manage your packages entirely from the GitHub web interface (using AppVeyor to update and push packages) and/or using the local repository copy.

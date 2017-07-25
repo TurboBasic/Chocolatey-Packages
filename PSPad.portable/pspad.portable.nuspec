@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if вЂњО©вЂќ doesnвЂ™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<!-- Do not remove this test for UTF-8: if Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р Р‹Р РЋРІвЂћСћР В Р’В Р РЋРІР‚С”Р В РІР‚в„ўР вЂ™Р’В©Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р Р‹Р РЋРЎв„ў doesnР В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р вЂ Р Р†Р вЂљРЎвЂєР РЋРЎвЂєt appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Required elements-->
     <id>PSPad.portable</id>
     <title>PSPad portable</title>
-    <version>4.6.2.20170720</version>
+    <version>4.6.2.20170725</version>
     <owners>Mao</owners>
     <packageSourceUrl>https://github.com/turboBasic/Chocolatey-Packages/tree/master/PSPad.portable</packageSourceUrl>
     <tags>text editor foss portable windows freeware development</tags>
