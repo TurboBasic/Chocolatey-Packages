@@ -39,14 +39,8 @@ Function global:au_SearchReplace {
    @{
         '.\tools\chocolateyInstall.ps1' = @{
             "(?i)(^[$]*url\s*=\s*)('.*')"           = "`$1'$($Latest.URL32)'"
-            #"(?i)(^\s*url32\s*=\s*)('.*')"         = "`$1'$($Latest.URL32)'"
             "(?i)(^\s*checksum\s*=\s*)('.*')"       = "`$1'$($Latest.Checksum32)'"
             "(?i)(^\s*checksumType\s*=\s*)('.*')"   = "`$1'$($Latest.ChecksumType32)'"
-        }
-
-        '.\legal\VERIFICATION.txt' = @{
-          "(?i)(\s+x32:).*"            = "`${1} $($Latest.URL32)"
-          "(?i)(checksum32:).*"        = "`${1} $($Latest.Checksum32)"
         }
     }
 

@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.rawgit.com/turboBasic/Chocolatey-Packages/master/PSPad.portable/icon.png" width="48" height="48"/> [chocolatey package PSPad.portable](https://chocolatey.org/packages/pspad)
+﻿# <img src="https://cdn.rawgit.com/turboBasic/Chocolatey-Packages/master/PSPad.portable/icon.png" width="48" height="48"/> [chocolatey package PSPad.portable](https://chocolatey.org/packages/pspad.portable)
 
 [PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, 
 useful for people who:

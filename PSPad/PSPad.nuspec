@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if вЂњО©вЂќ doesnвЂ™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<!-- Do not remove this test for UTF-8: if Р В Р вЂ Р В РІР‚С™Р РЋРЎв„ўР В РЎвЂєР вЂ™Р’В©Р В Р вЂ Р В РІР‚С™Р РЋРЎС™ doesnР В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PSPad</id>
@@ -28,7 +28,7 @@ commercial and government purposes too
     <packageSourceUrl>https://github.com/turboBasic/Chocolatey-Packages/tree/master/PSPad</packageSourceUrl>
     <releaseNotes>http://www.pspad.com/en/whatsnew.htm</releaseNotes>
     <summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>
-    <tags>text editor foss windows freeware development</tags>
+    <tags>admin text editor foss windows freeware development</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
