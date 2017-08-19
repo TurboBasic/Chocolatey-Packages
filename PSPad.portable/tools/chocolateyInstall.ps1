@@ -2,35 +2,32 @@
 
 $ErrorActionPreference = 'Stop'
 
-$packageName =  $env:ChocolateyPackageName
-$toolsDir =     "$(  Split-Path -parent $MyInvocation.MyCommand.Definition  )"
-$url =          'http://www.pspad.com/files/pspad/pspad462en.zip'
-$download_dir = "$Env:TEMP\chocolatey\$packageName\$Env:ChocolateyPackageVersion"
+$packageName =      $ENV:ChocolateyPackageName
+$toolsDir =         Split-Path -parent $MyInvocation.MyCommand.Definition
+$url =              'http://www.pspad.com/files/pspad/pspad462en.zip'
+$download_dir =     '{0}\chocolatey\{1}\{2}' -f 
+                        $ENV:Temp, $packageName, $ENV:ChocolateyPackageVersion
 
 $packageArgs = @{
-  packageName    = $packageName
-  unzipLocation  = "$(  Split-Path -parent $MyInvocation.MyCommand.Definition  )"
-  URL            = $url
-  checksum       = '7B9EB70EAB8D8A6D222FAA121FD0545C'
-  checksumType   = 'md5'
+  packageName =     $packageName
+  softwareName =    'PSPad portable'
+  
+  URL =             $url
+  checksumType =    'md5'
+  checksum =        '7B9EB70EAB8D8A6D222FAA121FD0545C'
+  
+  fileType =        'zip'
+  file =            Get-Item -path $toolsDir\*.zip
+  unzipLocation =   $toolsDir
 
-  fileType       = 'zip'
-  file           = Get-Item $toolsDir\*.zip
-  validExitCodes = @(0)
-  softwareName   = 'PSPad portable'
+  validExitCodes =  @(0)
 }
 
-$skipShims      = @('phpCB.exe', 'TiDy.exe')
-foreach ($file in $skipShims) {
-  New-Item -Path $toolsDir -Name "$file.ignore" -type file -force | Out-Null
+# prevent chocolatey from creating shims for supplementary executables
+foreach ( $file in 'phpCB.exe', 'TiDy.exe' ) {
+  New-Item -path $toolsDir -name "$file.ignore" -type File -force | Out-Null
 }
 
 Install-ChocolateyZipPackage @packageArgs
 
-rm $toolsDir\pspad*.zip -ea 0
-
-$packageName = $packageArgs.packageName
-$installLocation = Get-AppInstallLocation "$packageName*"
-if (!$installLocation)  { Write-Warning "Can't find $packageName install location"; return }
-Write-Host "$packageName installed to '$installLocation'"
-
+Remove-Item -path $toolsDir\pspad*.zip -errorAction SilentlyContinue

@@ -11,6 +11,9 @@ branches:
 #build:
 #  verbosity: minimal
 
+skip_commits:
+  message: /updated readme.*|update readme.*s/
+
 environment:
   # Set au version to use or omit to use the latest. Specify branch name to use development version from Github
   au_version:
