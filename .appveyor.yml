@@ -4,7 +4,7 @@ version: '{build}'
 max_jobs: 1
 image: WMF 5
 # History plugin requires complete log
-#clone_depth: 5
+# clone_depth: 5
 branches:
   only:
   - master
@@ -101,6 +101,7 @@ artifacts:
 - path: update_info.xml
 - path: Update-AUPackages.md
 - path: au_temp.zip
+- path: '**\*.nupkg'
 
 notifications:
 - provider: Email
