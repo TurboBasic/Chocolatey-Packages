@@ -47,8 +47,8 @@ environment:
     secure: XDiO/xk2AztadcGiFZynIB8u9gR/d8TPqtLhaLAqKnBSXw39jXfojbensH2NX2tP # https://ci.appveyor.com/tools/encrypt
 
 init:
-- git config --global user.email "chocolatey@realdimensions.net"
-- git config --global user.name "Chocolatey"
+- git config --global user.email "off@boun.cr"
+- git config --global user.name "turboBasic"
 - git config --global core.safecrlf false
 
 install:
